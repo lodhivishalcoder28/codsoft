@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lnading page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        </style>
+           <script src="https://kit.fontawesome.com/e27b64bb9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pngegg.png" alt="gym logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Join</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <h2>Wanna grow <span>Muscles</span></h2>
+                <h1>Make you body shape <br><span>Join Muscle Gym</span>
+             
+                </h1>
+                <p>Muscle Gym offers you a wide range of courses for body buidling, strength training and Stamina booseters...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----about section----- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bodybuilder pix.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sequi libero dolorem dicta non, accusantium eveniet quis molestias labore vero veritatis temporibus perspiciatis aut suscipit illo aliquam vitae est similique!</p>
+                    <div class="tabtitles">
+                        <p class="tablinks active-link" onclick="opentab('gym1')">Gym 1</p>
+                        <p class="tablinks" onclick="opentab('gym2')">Gym 2</p>
+                       <p class="tablinks"  onclick="opentab('gym3')"> Gym 3</p>
+                    </div>
+                    <div class="tabcontents activetabs" id="gym1">
+                        <ul>
+                            <li><span>Address</span> <br>Mumbai, Maharashtra</li>
+                            <li>  <span>Timings</span><br>Morning 5am to 8am </li>
+                            <li> <span>Holidays</span> <br>Sunday closed</li>
+                        </ul>
+                    </div>
+                        <div class="tabcontents"  id="gym2">
+                            <ul>
+                                <li><span>Address</span> <br>Delhi, India</li>
+                                <li>  <span>Timings</span><br>Morning 4am to 7am </li>
+                                <li> <span>Holidays</span> <br>Sunday closed</li>
+                            </ul>
+
+                    </div>
+                    <div class="tabcontents" id="gym3">
+                        <ul>
+                            <li><span>Address</span> <br>Gurugram, haryana</li>
+                            <li>  <span>Timings</span><br>Morning 6am to 10am </li>
+                            <li> <span>Holidays</span> <br>Sunday closed</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div id="services">
+        <div class="container">
+            <h1 class="subtitle"> OUR SERVICES </h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                   
+                    <h2>Body Building</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, repellat, laboriosam voluptas nesciunt facere minus deleniti ea eius veritatis, autem doloribus? Fuga rerum ab nobis commodi eaque maiores ducimus sequi.
+                    </p>
+                    <a href="#">Learn More</a>
+                  
+
+
+                </div>
+               
+                <div>
+                    <i class="fa-solid fa-bolt"></i>
+                    <h2>Stamina booster</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto magni deleniti iste minus harum ducimus error enim ut quos odio nihil et magnam veniam maiores, repellendus ratione eligendi fugit.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hand-fist"></i>
+                    <h2>Strength Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni ut itaque. Quam ipsa nemo repellat rem placeat ipsam optio, cum voluptate, fugiat magni quas eveniet quaerat! Aliquid, nam cupiditate.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- ------contact section----- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle"> Contact Us</h1>
+
+                    <p><i class="fa-solid fa-envelope"></i>lodhivishal286@gmail.com</p>
+
+                    <p> <i class="fa-solid fa-phone"></i>935924208</p>
+                    <div class="socialicons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                       
+
+                    </div>
+                   
+                   
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" require>
+                        <textarea name="message" rose="6" id="" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="copyright">
+            <p>Copyright  <i class="fa-regular fa-copyright"></i> Vishal Lodhi -Made with   <i class="fa-solid fa-heart"></i></p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents= document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("activetabs");
+            }
+            event.currentTarget.classList.add("active-link")
+           
+            document.getElementById(tabname).classList.add("activetabs")
+        }
+    </script>
+     <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwu-Wvuof6B0YyL7tySDaeJhrLKSjp_azDpe52Bn6G3u1AEfakd6CphLzHG5aDuC6TWOQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>
